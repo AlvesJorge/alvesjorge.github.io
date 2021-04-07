@@ -1,0 +1,12 @@
+body{
+        font-family: 'Ubuntu', sans-serif;
+        width:70%;
+        margin:0 auto;
+}
+
+#uglyFont{
+    font-family: 'Permanent Marker', cursive;
+}
+#uglyFont span{
+    font-size:10px
+}
