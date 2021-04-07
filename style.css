@@ -3,10 +3,31 @@ body{
         width:70%;
         margin:0 auto;
 }
-
+.section{
+    border:0px 2px 0px 2px solid black;
+    width:100%;
+    height:100%;
+}
+#headerText{
+    text-align:center
+}
 #uglyFont{
     font-family: 'Permanent Marker', cursive;
 }
 #uglyFont span{
     font-size:10px
+}
+.imgContainer img{
+    width:100%;
+    height:100%;
+}
+.imgContainer{
+    width:300px;
+    height:300px;
+    padding:2rem 1rem 0rem 1rem;
+}
+.gallery{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
 }
