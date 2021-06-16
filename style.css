@@ -10,21 +10,27 @@ body {
   align-items: center;
   width: 100%;
   height: 100vh;
+  background-color: #ddddddff;
 }
 #blackCard {
   width: 30vw;
   height: 70vh;
   margin: auto;
   background-color: #121212;
-  padding: 5%;
-  color: #f1f1f1;
+  padding: 2%;
+  color: #ddddddff;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
+  border-bottom: 10px solid #dad832ff;
 }
 #logo h1 {
   text-align: right;
   font-size: 3rem;
+  width: auto;
+}
+#logo {
+  width: 100%;
 }
 #content {
   font-size: 2.5vh;
