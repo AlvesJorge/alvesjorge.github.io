@@ -8,7 +8,7 @@ body {
   height: 25%;
 }
 #content {
-  font-size: 1.5rem;
+  font-size: clamp(1rem, -0.875rem + 8.333vw, 2rem);
   margin: auto;
   height: 65%;
 }
