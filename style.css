@@ -1,33 +1,34 @@
 body {
   font-family: "Ubuntu", sans-serif;
-  width: 70%;
-  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
-#logo {
-  text-align: right;
-  height: 25%;
-}
-#content {
-  font-size: clamp(1rem, -0.875rem + 8.333vw, 2rem);
-  margin: auto;
-  height: 65%;
-}
-#cardFooter {
-  color: #f1f1f1;
-  text-align: right;
-  height: 5%;
-  margin: auto;
-}
-#name {
-  text-align: right;
-  font-size: 5rem;
-  margin: 20px auto 0 auto;
+#pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
 }
 #blackCard {
-  width: 500px;
-  height: 80vh;
-  margin: 10vh auto;
-  background-color: black;
-  padding: 2%;
+  width: 50vw;
+  height: 70vh;
+  margin: auto;
+  background-color: #121212;
+  padding: 5%;
   color: #f1f1f1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+#logo h1 {
+  text-align: right;
+  font-size: 4rem;
+}
+#content {
+  font-size: 2.5vh;
+}
+#cardFooter {
+  text-align: right;
 }
