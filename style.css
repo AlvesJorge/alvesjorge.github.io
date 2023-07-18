@@ -10,19 +10,19 @@ body {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: #ddddddff;
+  background-color: white;
 }
 #blackCard {
   width: 30vw;
   height: 70vh;
   margin: auto;
-  background-color: #121212;
+  background-color: #1b1d1a;
   padding: 2%;
   color: #ddddddff;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
-  border-bottom: 10px solid #dad832ff;
+  border-bottom: 10px solid #c6d300;
 }
 #logo h1 {
   text-align: right;
@@ -44,6 +44,7 @@ body {
 @media screen and (max-width: 1080px) {
   #blackCard {
     width: 100%;
+    height: 100%;
   }
   #logo h1 {
     font-size: 4rem;
